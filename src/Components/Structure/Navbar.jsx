@@ -63,7 +63,7 @@ function Navbar() {
                             "block sm:hidden absolute right-5 sm:right-10 bg-text rounded-lg px-3 py-1 hover:scale-110 text-primary duration-150 transition-all ease-out font-semibold shadow-customShadow"
                         }
                         link={
-                            "https://api.whatsapp.com/send?phone=8297667878"
+                            "https://api.whatsapp.com/send?phone=8297999927"
                         }
                         content={
                             <span className="inline-block">
