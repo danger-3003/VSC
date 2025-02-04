@@ -68,7 +68,7 @@ function FAQ() {
                             >
                                 <div>
                                     What are the operating hours of Vishwanadh
-                                    Sports Club?
+                                    Sports and Conventions Pvt. Ltd.?
                                 </div>
                                 <div>
                                     <FontAwesomeIcon

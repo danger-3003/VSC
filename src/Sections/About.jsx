@@ -22,7 +22,7 @@ function About() {
                 <Container>
                     <div className="px-5 sm:px-10">
                         <p className="font-extralight text-2xl sm:text-4xl lg:text-5xl tracking-[0.2rem] md:tracking-[0.5rem] leading-[2rem] sm:leading-[3rem] md:leading-[4rem] text-center">
-                            Welcome to <span className="font-semibold">Vishwanadh Sports Club</span>, where adventure
+                            Welcome to <span className="font-semibold">Vishwanadh Sports and Conventions</span>, where adventure
                             meets excellence.
                         </p>
                     </div>
@@ -38,7 +38,7 @@ function About() {
                         <div className="w-full md:w-[60%]">
                             <p className="text-center md:text-left font-light text-text text-base md:text-lg tracking-[0.07rem]">
                                 Situated in Visakhapatnam’s heart, <span className="font-semibold text-yellow">Vishwanadh
-                                Sports Club</span> offers 40 acres of fun-packed
+                                Sports and Conventions Pvt. Ltd.</span> offers 40 acres of fun-packed
                                 activities, world-class sports facilities, and
                                 serene greenery. With a stellar <span className="text-yellow font-semibold">4.7-star</span> rating
                                 on Google, we cater to adventure seekers,
