@@ -2,19 +2,12 @@ import React,{useEffect, useRef} from "react";
 import { useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTags } from "@fortawesome/free-solid-svg-icons";
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
+import HeaderSwiper from "../Components/Swiper/HeaderSwiper";
 import IntroVideo from "../assets/IntroVideo.mp4";
 import Thumbnail from "../assets/VideoThumbnail.svg";
 import Container from "../Components/Container";
 import Button from "../Components/Buttons/LinkButton";
-import MarqueeElement from "../Components/MarqueeElement";
-
-import Cycle360 from "../assets/Bookings/360Cycle.jpg";
-import AquaWorld from "../assets/Bookings/AquaWorld.jpg";
-import Badminton from "../assets/Bookings/Badminton.jpeg";
-import GoKarting from "../assets/Bookings/Gokarting.jpg";
-import GoKartingChampion from "../assets/Bookings/GokartingChampion.jpeg";
-import RopeCourse from "../assets/Bookings/Rope.jpg";
 
 import Logo from "../assets/logo.png";
 import Name from "../assets/AdevturesName.svg";
@@ -83,8 +76,8 @@ function Home() {
             <div className="flex items-center justify-center">
                 <div className="absolute -bottom-[10rem] flex items-center justify-center flex-col">
                     <p className="text-text text-xl font-mplus font-semibold mb-5 uppercase">Select your Interest</p>
-                    <div className="w-[90vw] xl:w-[70rem]">
-                        <Marquee className="rounded-2xl" speed={80} pauseOnHover={true} autoFill={true}>
+                    <div className="w-[90vw] xl:w-[70rem] flex items-center justify-center">
+                        {/* <Marquee className="rounded-2xl" speed={80} pauseOnHover={true} autoFill={true}>
                             <MarqueeElement 
                                 content={"360 Cycle"}
                                 img={Cycle360}
@@ -121,7 +114,8 @@ function Home() {
                                 link={"https://in.bookmyshow.com/sports/gokarting-championship-vsc/ET00379295"}
                                 className={"bg-text rounded-lg px-3 py-1 text-primary text-sm font-medium shadow-customShadow"}
                             />
-                        </Marquee>
+                        </Marquee> */}
+                        <HeaderSwiper />
                     </div>
                 </div>
             </div>

@@ -37,10 +37,4 @@ function Button({ content, className = "", link = "#" }) {
     );
 }
 
-Button.propTypes = {
-    content: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
-    className: PropTypes.string,
-    link: PropTypes.string,
-};
-
 export default Button;
